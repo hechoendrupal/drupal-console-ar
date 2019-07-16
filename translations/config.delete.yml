@@ -15,6 +15,6 @@ warnings:
 questions:
     sure: 'Are you sure to delete all configuration'
 examples:
-    - description: 'Provide a config type and a config name'
-      execution: drupal config:delete active all
-
+    -
+        description: 'Provide a config type and a config name'
+        execution: 'drupal config:delete active all'

@@ -1,10 +1,10 @@
 description: 'Enable a View'
 messages:
-  enabled-successfully: 'View "%s" was enabled successfully.'
+    enabled-successfully: 'View "%s" was enabled successfully.'
 examples:
-  - description: 'Enable content view'
-    execution: |
-      drupal views:enable  content
-  - description: 'Enable frontpage view'
-    execution: |
-      drupal views:enable  frontpage
+    -
+        description: 'Enable content view'
+        execution: "drupal views:enable  content\n"
+    -
+        description: 'Enable frontpage view'
+        execution: "drupal views:enable  frontpage\n"

@@ -4,6 +4,6 @@ welcome: 'Welcome to the Drupal Config Settings Debug command'
 messages:
     current: 'Current Key:value on settings file'
 examples:
-    - description: 'Displays key:value as per the settings file'
-      execution: |
-        drupal debug:config:settings
+    -
+        description: 'Displays key:value as per the settings file'
+        execution: "drupal debug:config:settings\n"

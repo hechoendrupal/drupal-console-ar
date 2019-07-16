@@ -5,10 +5,9 @@ messages:
     success: 'All cron implementations requested were executed successfully'
     lock: 'Attempting to re-run cron while it is already running'
 examples:
-    - description: 'Execute the cron globally'
-      execution: |
-        drupal cron:execute
-    - description: 'Execute the cron on the specified module'
-      execution: |
-        drupal cron:execute \
-          <module>
+    -
+        description: 'Execute the cron globally'
+        execution: "drupal cron:execute\n"
+    -
+        description: 'Execute the cron on the specified module'
+        execution: "drupal cron:execute \\\n  <module>\n"

@@ -13,8 +13,10 @@ messages:
     set-inline-placeholders: 'Pass inline placeholders as:'
     select-value-for-placeholder: 'Select value for %s placeholder'
     enter-value-for-placeholder: 'Enter value for %s placeholder'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
 examples:
-    - description: 'Providing a file option using full path.'
-      execution: |
-        drupal chain \
-          --file="/path/to/file/chain-file.yml"
+    -
+        description: 'Providing a file option using full path.'
+        execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

@@ -10,12 +10,9 @@ messages:
     empty-value: 'Value can not be empty'
     success: 'Configuration(s) "%s", has been imported successfully.'
 examples:
-    - description: 'Providing a file option using full path.'
-      execution: |
-        drupal config:import:single \
-          --file="/path/to/file/block.block.default_block.yml"
-    - description: 'Providing file and directory options'
-      execution: |
-        drupal config:import:single  \
-          --file="block.block.default_block.yml" \
-          --directory="/path/to/directory"
+    -
+        description: 'Providing a file option using full path.'
+        execution: "drupal config:import:single \\\n  --file=\"/path/to/file/block.block.default_block.yml\"\n"
+    -
+        description: 'Providing file and directory options'
+        execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"
