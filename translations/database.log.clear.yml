@@ -10,13 +10,9 @@ messages:
     clear-error: 'Clear process fail, please check used filters'
     clear-sucess: 'Clear of events was successfully'
 examples:
-    - description: 'Clear the database log from DBLog table'
-      execution: |
-        drupal database:log:clear \
-          <database>
-    - description: 'Clear the database log from DBLog table using filters'
-      execution: |
-        drupal database:log:clear \
-          <database> \
-          --type=TYPE \
-          --severity=SEVERITY
+    -
+        description: 'Clear the database log from DBLog table'
+        execution: "drupal database:log:clear \\\n  <database>\n"
+    -
+        description: 'Clear the database log from DBLog table using filters'
+        execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

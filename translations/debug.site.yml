@@ -1,17 +1,19 @@
 description: 'List all known local and remote sites.'
 help: 'The <info>site:debug</info> list all known local and remote sites.'
 messages:
-  site: 'Site'
-  host: 'Host'
-  root: 'Root'
-  not-sites: 'No sites defined'
-  invalid-site: 'Invalid site name'
-  private-key: 'Error with private key'
-  connect-error: 'Error connecting to remote machine'
+    site: Site
+    host: Host
+    root: Root
+    invalid-sites: 'No sites defined.'
+    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
+    invalid-site: 'Invalid site name'
+    private-key: 'Error with private key'
+    connect-error: 'Error connecting to remote machine'
+    not-sites: 'No sites defined'
 options:
-  target: 'Target'
-  property: 'Property'
+    target: Target
+    property: Property
 examples:
-    - description: ''
-      execution: |
-        drupal debug:site
+    -
+        description: ''
+        execution: "drupal debug:site\n"

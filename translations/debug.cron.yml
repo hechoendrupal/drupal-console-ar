@@ -3,6 +3,6 @@ messages:
     module-list: 'Modules implementing a cron method'
     module: Module
 examples:
-    - description: 'This will show a list with modules implementing the cron hook'
-      execution: |
-        drupal debug:cron
+    -
+        description: 'This will show a list with modules implementing the cron hook'
+        execution: "drupal debug:cron\n"

@@ -7,12 +7,12 @@ questions:
     directories: 'Config directory:'
 table:
     headers:
-      collection: 'Collection'
-      config-name: 'Configuration item'
-      operation: 'Operation'
+        collection: Collection
+        config-name: 'Configuration item'
+        operation: Operation
 messages:
     no-changes: 'There are no changes.'
 examples:
-    - description: 'Provide a config directory'
-      execution: drupal config:diff ../config/path
-
+    -
+        description: 'Provide a config directory'
+        execution: 'drupal config:diff ../config/path'

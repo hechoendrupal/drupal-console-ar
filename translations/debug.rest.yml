@@ -16,6 +16,6 @@ messages:
     supported-auth: 'Supported Authentication Providers'
     not-found: 'Rest resource "%s" not found'
 examples:
-    - description: 'Displays rest hooks'
-      execution: |
-        drupal debug:rest
+    -
+        description: 'Displays rest hooks'
+        execution: "drupal debug:rest\n"

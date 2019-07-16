@@ -1,9 +1,9 @@
 description: 'Displays the queues of your application'
 messages:
-  queue: 'Queue'
-  items: 'Items'
-  class: 'Class'
+    queue: Queue
+    items: Items
+    class: Class
 examples:
-    - description: 'Displays the queues of the application'
-      execution: |
-        drupal debug:queue
+    -
+        description: 'Displays the queues of the application'
+        execution: "drupal debug:queue\n"
